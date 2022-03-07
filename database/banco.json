@@ -1,0 +1,88 @@
+{
+    "pizzas": [
+        {
+            "nome": "Margherita",
+            "preco": "R$ 20,00",
+            "imagem": "https://www.pizzahut.com.br/static/images/pizzas/margherita.png",
+            "descricao": "maravilhosa pizza de tomate, manjericão e queijo",
+            "ingredientes": [
+                "queijo",
+                "tomate",
+                "manjericão",
+                "farinha de trigo",
+                "azeitona"
+            ],
+            "tamanho": "34km"
+        },
+        {
+            "nome": "Calabresa",
+            "preco": "R$ 30,00",
+            "imagem": "https://www.pizzahut.com.br/static/images/pizzas/margherita.png",
+            "descricao": "maravilhosa pizza de calabresa com cebola",
+            "ingredientes": [
+                "queijo",
+                "calabresa",
+                "tomate",
+                "farinha de trigo",
+                "azeitona"
+            ],
+            "tamanho": "34km"
+        }
+    ],
+    "usuarios": [
+        {
+            "nome": "José",
+            "email": "jose@exemplo.com",
+            "senha": "$2b$10$ihQr1QL21oa6M2ijz66YCuJgClBzU8Ei.In8d/ka4myR8wxKDC1EO",
+            "eh_admin": true
+        },
+        {
+            "nome": "Michael",
+            "email": "michae@gma.c",
+            "senha": "123456",
+            "eh_admin": false
+        },
+        {
+            "nome": "carla",
+            "email": "carla@hshs.com",
+            "senha": "2020",
+            "eh_admin": false
+        },
+        {
+            "nome": "sdsd",
+            "email": "mic@ex.com",
+            "senha": "123546",
+            "eh_admin": false
+        },
+        {
+            "nome": "Gabrielle",
+            "email": "gabrielle@exemplo.com",
+            "senha": "123456",
+            "eh_admin": false
+        },
+        {
+            "nome": "Reginaldo",
+            "email": "regis@teste.com",
+            "senha": "1231456",
+            "eh_admin": false
+        },
+        {
+            "nome": "Thais",
+            "email": "thais@gmail.com",
+            "senha": "123456789",
+            "eh_admin": false
+        },
+        {
+            "nome": "marilda",
+            "email": "marilda@sd.com",
+            "senha": "$2b$10$lo67KaR1aZV8.FdI5MxYOOyl6MS7oTaexIfflnjWIghBGJ1h0KrbW",
+            "eh_admin": false
+        },
+        {
+            "nome": "Josinelson",
+            "email": "nelson@nelson.uk",
+            "senha": "$2b$10$ihQr1QL21oa6M2ijz66YCuJgClBzU8Ei.In8d/ka4myR8wxKDC1EO",
+            "eh_admin": false
+        }
+    ]
+}

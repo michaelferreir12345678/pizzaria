@@ -1,14 +1,15 @@
 const {Router} = require ('express');
 
+const usuariosController = require('../controllers/usuariosControllers'); 
+
 const router = Router();
 
-router.get('/cadastrar', (req,res) => {
-    res.render('cadastrar')
-});
+router.get('/cadastrar', usuariosController.exibeFormularioCadastro);
 
-router.post('/cadastrar', (req, res) => {
-    console.log(req.body)
-    res.send(req.body)
-})
+router.post('/cadastrar', usuariosController.cadastrar)
+
+router.get('/login', usuariosController.exibeFormularioLogin)
+router.post('/login', usuariosController.fazerLogin)
+
 
 module.exports = router;
