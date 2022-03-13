@@ -27,6 +27,16 @@
                 "azeitona"
             ],
             "tamanho": "34km"
+        },
+        {
+            "nome": "Michael",
+            "preco": "30",
+            "imagem": "${hash}-${file.originalname}"
+        },
+        {
+            "nome": "pizzaTestando",
+            "preco": "50",
+            "imagem": "2e1070204918e1d7-IMG_8792.JPG"
         }
     ],
     "usuarios": [

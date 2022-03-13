@@ -15,7 +15,7 @@
       <% pizzas.forEach(pizza => { %>
         <li><%= pizza.nome %> / R$ <%= pizza.preco %></li>
         <p>Descrição: <%= pizza.descricao %></p>
-        <img src="<%= pizza.imagem %>" alt="Foto de uma pizza de <%= pizza.nome %>">
+        <img src="/images/<%= pizza.imagem %>" alt="Foto de uma pizza de <%= pizza.nome %>">
         <p>Ingredientes</p>
         <ul>
           <% pizza.ingredientes.forEach(ingrediente => { %>

@@ -1,3 +1,10 @@
+const express = require('express');
+const usuarioEstaLogado = require('../middlewares/usuarioEstaLogado');
 
+const router = express.Router();
 
-const usuarioEhAdmin = require('../middlewares/usuarioEhAdmin')
+router.get('/', usuarioEstaLogado, (req, res) => {
+  res.render('index')
+});
+
+module.exports = router;
