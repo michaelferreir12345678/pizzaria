@@ -1,6 +1,7 @@
 {
     "pizzas": [
-        {
+        {   
+            "id": 1,
             "nome": "Margherita",
             "preco": "R$ 20,00",
             "imagem": "https://www.pizzahut.com.br/static/images/pizzas/margherita.png",
@@ -14,7 +15,8 @@
             ],
             "tamanho": "34km"
         },
-        {
+        {   
+            "id": 2,
             "nome": "Calabresa",
             "preco": "R$ 30,00",
             "imagem": "https://www.pizzahut.com.br/static/images/pizzas/margherita.png",
@@ -28,12 +30,14 @@
             ],
             "tamanho": "34km"
         },
-        {
+        {   
+            "id": 3,
             "nome": "Michael",
             "preco": "30",
             "imagem": "${hash}-${file.originalname}"
         },
-        {
+        {   
+            "id": 4,
             "nome": "pizzaTestando",
             "preco": "50",
             "imagem": "2e1070204918e1d7-IMG_8792.JPG"
